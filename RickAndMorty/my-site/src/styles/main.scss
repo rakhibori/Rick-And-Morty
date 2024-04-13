@@ -1,0 +1,182 @@
+// TitleBox Style
+.titleBox{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0 auto;
+    width: 1200px;
+    color: #373636;
+}
+// ______________________________________________________________________________________________________________________________________________________
+// TitlePersonalityFeaturesBox Style
+.TitlePersonalityFeaturesBox{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100%;
+    color: #373636; 
+    background-color: rgb(223, 222, 222);   
+}
+// _____________________________________________________________________________________________________________________________________________________
+// SearchBox Style
+.searchBox{
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 60px;
+        margin-left: 70px;
+        border-radius: 50px;
+    }
+    
+    .input{
+        border-radius: 5px;
+        border: 1px solid rgb(206, 204, 204);
+        width: 100px;
+        height: 35px;
+        margin-top: 10px;
+        margin-right: 77px;
+        padding-left: 10px;
+    }
+    .searchIcon{
+        position: absolute;
+        right:95px;
+        top:30px;
+        color: gray;
+    }
+
+    .filterStyle{
+        width: 100px;
+        margin-top: 10px;
+    }
+    
+    .messageBox{
+        span{
+            margin-right: 15px;
+            color: red;
+            font-size: 12px;
+        }
+        
+    }
+}
+// ________________________________________________________________________________________________________________________________________________________
+// PostMainBox Style
+.postMainBox{
+    background-color: #373636;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:10px;
+    padding-bottom: 45px;
+    .noneDisplay{
+        display: none;
+    }
+    .postBox{
+        margin-top: 55px;
+        width: 550px;
+        height: 200px;
+        background-color: rgb(156, 152, 152);
+        border-radius: 10px;
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 10px 0 0 10px;
+        }
+        .infoBox{
+            display: flex;
+            justify-content: space-between;
+            .textBox{
+                font-size: 18px;
+                width: 340px;
+                h3{
+                    color: #373636;
+                    &:hover{
+                        color: rgb(245, 208, 140);
+                    }
+                }
+                a{
+                    color: black;
+                    text-decoration: none;
+                    &:hover{
+                        color: rgb(245, 208, 140);
+                    }
+                }
+            }
+        }
+    }
+}
+// ____________________________________________________________________________________________________________________________________________________________
+// ShowCharactersInfoBox Style
+.ShowCharactersInfoBox{
+    .nameBox{
+        width: 900px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #373636;
+        color: rgb(245, 208, 140)
+    }
+    .imageMainBox{
+        width: 900px;
+        margin: 0 auto;
+        background-color: rgb(156, 152, 152);    
+        margin-top: -22px;
+        height: 300px;
+        .imageBox{
+            display: flex;
+            justify-content: space-between;
+            img{
+                height: 300px;
+            }
+            .infoBox{
+                width: 550px;
+                height: 300px;
+                h3{
+                    color: white;
+                }
+                span{
+                    font-size: 25px;
+                    color: #373636;
+                    margin-left: 15px;
+                }
+                .span1{
+                    font-size: 25px;
+                    color: #373636;
+                    margin-left: 33px;
+                }
+                .iconGreenStyle{
+                    color: green;
+                    width: 15px;
+                    position: absolute;
+                    left: 683px;
+                    top:261px
+                }
+                .iconRedStyle{
+                    color: red;
+                    width: 15px;
+                    position: absolute;
+                    left: 683px;
+                    top:261px
+                }
+                .btnBox{
+                    
+                    button{
+                        margin-left: 220px;
+                        width: 50px;
+                        height: 25px;
+                        cursor: pointer;
+                        border: none;
+                        border-radius: 50px;
+                        &:hover{
+                            color: rgb(245, 208, 140);
+                            background-color: #373636;
+                            border: none;
+                            border-radius: 50px;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
+// _______________________________________________________________________________________________________________________________________________________________
